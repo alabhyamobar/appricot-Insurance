@@ -8,13 +8,13 @@ const Home = ({ refProp }) => {
   return (
     <div
       ref={refProp}
-      className='w-full h-screen bg-cover bg-center bg-no-repeat'
+      className='w-full h-screen bg-cover bg-center bg-no-repeat mt-16'
       style={{
-        backgroundImage: `url("https://media-hosting.imagekit.io/a485e808753447aa/apricoat%20home%20page%20image(1).png?Expires=1841826389&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=bzacflDWi5yn8zndA2UcHnBKSLBvZAsgDeSU8zYq378ko0Cw3ZheMopZ9N2F55hr17dZUYUldOLM-wI82FSC~50lMRFgXxxgym7eemy7u2at75TJ5rvpy0leOjtkL1coZYGCwEHqMZGB~6RSHDHNlAmFIOjfyi~-M8tSkm3jo3~oge5y9eXcBjsgo0TJge0mqwLM~IIhDVsxUSxPfOqoxQJ5WKPAltV7SWtYtqo29~zFzdt4lHh1Dc76uG8EdGIitr9urwl693u9x-A7IUwBhfyhwmG66TmHbV6x9KiaVzDwXFsia09uFqCbq6ckIkYR3zew90ixdHdnW9KMK4NEaw__")`
+        backgroundImage: `url("https://media-hosting.imagekit.io/86e71e089a21481b/Untitled%20design.png?Expires=1841977929&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Y3m5gfuMwMDXtCf4BDDVRfPEb-8YP-K0s9Uvvb9o8e2wJZSybc7rJNcHjDuHTWTzQgWgExK7FdxTF-3pQWaJ4Qy0QUb3mG0dM5tLka~8Fs2InmxzB5M4O2KTqzzCFTthvH9DU2qRzGXq59JMYIO9kYNV5UIwuUeLZCcniwdN75wdakOMo~m3oWiMLrBvY3u6LwAXBbDbKCTfETj6FQocdEjjy9-o3F6MvFrVIYDDWt7GvxWpVSrvRvV~OczLXVSMyH7OnZYkPjHKv1Ui9XwIsl~LYLpFWKqCaHbWLNCy-RsrnlDOyOn2c5sTvdbFXJy50edO5cRA-MEmcyzkUis8Lg__ ")`
       }}
     >
-      <div className="w-full h-full flex flex-col justify-center items-start px-4 sm:px-8 md:px-16 lg:px-24 bg-black/40 backdrop-brightness-90">
-        <h1 className="text-xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-green-400 pb-3 sm:pb-5 max-w-full">
+      <div className="w-full h-full flex flex-col justify-center items-start px-4 sm:px-8 md:px-16 lg:px-24 bg-black/10 backdrop-brightness-90 ">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-white pb-3 sm:pb-5 max-w-full">
           <TypeAnimation
             sequence={["Apricoat Insurance Marketing Pvt. Ltd.", 3000, "", 2000]}
             speed={50}
@@ -23,11 +23,11 @@ const Home = ({ refProp }) => {
           />
         </h1>
 
-        <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold text-green-100 pb-3 sm:pb-4">
+        <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white pb-3 sm:pb-4">
           Protect what matters
         </h2>
 
-        <p className="text-sm sm:text-base md:text-lg lg:text-xl font-medium text-green-100 pb-6 max-w-2xl leading-relaxed">
+        <p className="text-sm sm:text-base md:text-lg lg:text-xl font-medium text-white pb-6 max-w-2xl leading-relaxed">
           Specialized insurance solutions for marine, fire, and more. Get peace
           of mind with Apricoat's comprehensive coverage options.
         </p>
