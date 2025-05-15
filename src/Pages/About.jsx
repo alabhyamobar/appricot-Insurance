@@ -119,10 +119,13 @@ const About = ({ refProp }) => {
             Why Choose Us
           </h2>
           <ul className="text-gray-700 space-y-4 text-lg list-disc list-inside">
-            <li>Trusted by thousands of clients across the nation.</li>
+            <li>Trusted by hundreds of clients.</li>
             <li>Personalized insurance plans tailored to your needs.</li>
-            <li>24/7 customer support and quick claim processing.</li>
+            <li>24/7 customer support.</li>
             <li>Experienced advisors to guide you every step of the way.</li>
+            <li>Customer- Centered Services.</li>
+            <li>Industry Expertise.</li>
+            <li>Fast and Hassle free claim assistance.</li>
             <li>Comprehensive coverage options at competitive prices.</li>
           </ul>
 

@@ -16,7 +16,13 @@ const Footer = () => {
       <div className="mt-8 font-bold text-4xl text-white uppercase tracking-wide md:text- xl">
         Apricoat Insurance & Marketing Pvt. Ltd. 
       </div>
-<p className="cursor-pointer text-2xl mt-4">Contact Us</p>
+<Link to="/apricoat-insurance/contact">
+          <button
+            className="mt-4 bg-green-600  text-white font-semibold px-6 py-2 rounded-md hover:bg-green-700 transition duration-300"
+          >
+            Contact Us
+          </button>
+        </Link>
       {/* Contact Info */}
       <div className="mt-6 text-green-100 text-sm leading-relaxed max-w-4xl mx-auto text-center space-y-2 px-4">
         <p><span className="font-semibold text-white">Contact Info -</span> +91 - 88 268 56414, +91 - 98 390 32898</p>
