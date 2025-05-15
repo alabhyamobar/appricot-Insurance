@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+
+.cta {
+  display: flex;
+  align-items: center; 
+  padding: 6px 20px; 
+  text-decoration: none;
+  font-size: 16px; 
+  color: white;
+  background: #1e40af;
+  transition: 1s;
+  box-shadow: 4px 4px 0 #0c1d57;
+  transform: skewX(-15deg);
+  border: none;
+  cursor: pointer;
+  height: 100%; 
+}
+
+.cta:focus {
+  outline: none;
+}
+
+.cta:hover {
+  transition: 0.5s;
+  box-shadow: 6px 6px 0 #3b82f6;
+}
+
+.cta .second {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.cta:hover .second {
+  transition: 0.5s;
+  margin-right: 20px; 
+}
+
+.span {
+  transform: skewX(15deg);
+}
+
+.second {
+  width: 16px; 
+  margin-left: 20px;
+  position: relative;
+  top: 10%;
+}
+
+.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+.two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.cta:hover .three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover .one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover .two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  25%{
+    fill: #176df7;
+  }
+
+  50% {
+    fill: #3b82f6;
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
