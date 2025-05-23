@@ -139,7 +139,7 @@ const About = ({ refProp }) => {
         <div ref={whyChooseImageRef} className="flex-1">
           <div className="rounded-lg overflow-hidden shadow-lg h-full">
             <img
-              src="https://www.nicepng.com/ourpic/u2q8i1e6i1r5r5w7_health-png-image-general-insurance/"
+              src="https://www.startanybusiness.ae/wp-content/uploads/2025/02/health-life-insurance-2048x1991.png"
               alt="Why Choose Us"
               className="w-[800px] h-[400px] object-cover"
             />
