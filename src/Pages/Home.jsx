@@ -10,10 +10,10 @@ const Home = ({ refProp }) => {
       ref={refProp}
       className="w-full  h-screen bg-cover bg-center bg-no-repeat mt-16"
       style={{
-        backgroundImage: `url("")`,
+        backgroundImage: `url("https://i.ibb.co/5ySjBfX/Untitled-design.png")`,
       }}
     >
-      <div className="w-full h-[100%] pt-6 sm:pt-10 md:pt-12 px-4 sm:px-8 md:px-16 lg:px-24 bg-black/40 backdrop-brightness-90">
+      <div className="w-full h-[100%] pt-6 sm:pt-10 md:pt-12 px-4 sm:px-8 md:px-16 lg:px-24 bg-black/50 ">
         <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-white pb-3 sm:pb-5 max-w-full mt-50">
           <TypeAnimation
             sequence={[
