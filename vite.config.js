@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/appricot-Insurance/",  // Correct format for GitHub Pages
+  base: "/appricot-Insurance/", // IMPORTANT for GitHub Pages
 })
