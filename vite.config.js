@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/appricot-insurance/', // <- must match your repo name
+  base: '/appricot-Insurance/', // <- must match your repo name
   plugins: [react()],
 })
