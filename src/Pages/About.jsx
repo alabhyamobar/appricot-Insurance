@@ -104,7 +104,7 @@ const About = ({ refProp }) => {
         <div ref={imageRef} className="flex-1">
           <div className="rounded-lg overflow-hidden shadow-lg h-full">
             <img
-              src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2069&auto=format&fit=crop"
+              src="https://www.businessleague.in/wp-content/uploads/2025/02/Insurance.png"
               alt="Office team"
               className="w-full h-full object-cover"
             />
@@ -139,7 +139,7 @@ const About = ({ refProp }) => {
         <div ref={whyChooseImageRef} className="flex-1">
           <div className="rounded-lg overflow-hidden shadow-lg h-full">
             <img
-              src="https://images.unsplash.com/photo-1556742031-c6961e8560b0?q=80&w=2069&auto=format&fit=crop"
+              src="https://www.startanybusiness.ae/wp-content/uploads/2025/02/health-life-insurance-2048x1991.png"
               alt="Why Choose Us"
               className="w-[800px] h-[400px] object-cover"
             />

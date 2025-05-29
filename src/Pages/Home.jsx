@@ -10,10 +10,10 @@ const Home = ({ refProp }) => {
       ref={refProp}
       className="w-full  h-screen bg-cover bg-center bg-no-repeat mt-16"
       style={{
-        backgroundImage: `url("https://media-hosting.imagekit.io/86e71e089a21481b/Untitled%20design.png?Expires=1841977929&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Y3m5gfuMwMDXtCf4BDDVRfPEb-8YP-K0s9Uvvb9o8e2wJZSybc7rJNcHjDuHTWTzQgWgExK7FdxTF-3pQWaJ4Qy0QUb3mG0dM5tLka~8Fs2InmxzB5M4O2KTqzzCFTthvH9DU2qRzGXq59JMYIO9kYNV5UIwuUeLZCcniwdN75wdakOMo~m3oWiMLrBvY3u6LwAXBbDbKCTfETj6FQocdEjjy9-o3F6MvFrVIYDDWt7GvxWpVSrvRvV~OczLXVSMyH7OnZYkPjHKv1Ui9XwIsl~LYLpFWKqCaHbWLNCy-RsrnlDOyOn2c5sTvdbFXJy50edO5cRA-MEmcyzkUis8Lg__ ")`,
+        backgroundImage: `url("https://i.ibb.co/5ySjBfX/Untitled-design.png")`,
       }}
     >
-      <div className="w-full h-[100%] pt-6 sm:pt-10 md:pt-12 px-4 sm:px-8 md:px-16 lg:px-24 bg-black/40 backdrop-brightness-90">
+      <div className="w-full h-[100%] pt-6 sm:pt-10 md:pt-12 px-4 sm:px-8 md:px-16 lg:px-24 bg-black/50 ">
         <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-white pb-3 sm:pb-5 max-w-full mt-50">
           <TypeAnimation
             sequence={[
@@ -29,7 +29,7 @@ const Home = ({ refProp }) => {
         </h1>
 
         <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white pb-3 sm:pb-4">
-          Protect what matters
+          An Insurance for every Possibility
         </h2>
 
         <p className="text-sm sm:text-base md:text-lg lg:text-xl font-medium text-white pb-6 max-w-2xl leading-relaxed">

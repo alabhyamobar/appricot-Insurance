@@ -28,8 +28,7 @@ const Contact = () => {
         </a>
         <p className="mt-4 mb-2 text-2xl font-bold">Visiting Hours</p>
         <ul >
-          <li className="text-base sm:text-lg">Monday - Friday: 10:00 AM - 6:00 PM</li>
-          <li className="text-base sm:text-lg">Saturday: 10:00 AM - 2:00 PM</li>
+          <li className="text-base sm:text-lg">Monday - Saturday: 10:00 AM - 7:00 PM</li>
           <li className="text-base sm:text-lg">Sunday: Closed</li>
         </ul>
         

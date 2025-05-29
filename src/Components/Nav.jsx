@@ -97,7 +97,7 @@ const Nav = () => {
         {/* LOGO */}
         <div className="flex items-center h-10 md:h-12 cursor-pointer" onClick={handleLogoClick}>
           <img
-            src="https://media-hosting.imagekit.io/f3bfdd0def554fff/Apricoat_insurance-removebg-preview%20(1).png?Expires=1841978630&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=gRYe-Vnj~vfs2~MI80BZQUEaKyOfxbhvYLhkBdlMapaE~TGOdrcirk~SUS2WcKpb-DzC3FXEFZlcFPZmfygH9IaaW6JkdI6scNO47Tfo7pbk4TB8BwodEcZhpI1GVfX5xH6Uynwh4ynnnWfbiWl4RH6zBxVcDEjjE7jXnzGbk3VVVk43UxRFvDF2HRysWrPdabS0QqChHbDeXIIc-BxMTf6i6OQfH0P7zxaEUk8rRcQRw22~J~XLrIm6TmkGYJb4mJuRvtE022IVccLdPeYYq3dz0cJhjGX10F~V6OjeTZkoaz3wIfX7Rqub~yR57yFYOccJrpw7UTvbm4cZWhu~2w__"
+            src="https://i.ibb.co/1t47qdHq/Apricoat-insurance-removebg-preview-1.png"
             alt="Apricoat Insurance"
             className="h-full w-auto object-contain"
           />
