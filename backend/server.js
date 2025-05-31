@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGO_URI, {
   useUnifiedTopology: true,
 })
 .then(() => console.log('✅ MongoDB connected'))
-.catch(err => console.log('❌ Mongo Error:', err));
+.catch(err => console.error('❌ Mongo Error:', err));
 
 // -------------------- CONTACT FORM ROUTE --------------------
 app.post('/api/contact', async (req, res) => {
@@ -67,25 +67,22 @@ app.get('/api/testimonials', async (req, res) => {
   }
 });
 
-/* 
-// Optional: Serve React frontend static files (uncomment if you build frontend inside backend folder)
+// -------------- Serve React frontend from /dist --------------
 
-// Serve static files from frontend build
-app.use(express.static(path.join(__dirname, 'frontend', 'build')));
+app.use(express.static(path.join(__dirname, '../dist')));
 
-// For all other routes, serve frontend index.html
+// For any other route, serve React's index.html
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend', 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, '../dist', 'index.html'));
 });
-*/
 
-// Basic error handler middleware
+// -------------------- Error handler middleware --------------------
 app.use((err, req, res, next) => {
-  console.error(err.stack);
+  console.error('Unhandled error:', err.stack);
   res.status(500).json({ success: false, message: 'Something broke!' });
 });
 
-// Start server, listen on all network interfaces (0.0.0.0)
+// Start server, listen on all interfaces
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 Server running on http://0.0.0.0:${PORT}`);
 });
