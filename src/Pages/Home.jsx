@@ -44,15 +44,7 @@ const Home = ({ refProp }) => {
             </button>
           </Link>
 
-          <a
-            href="/appricot-Insurance/Apricoat_Insurance_Brochure.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-44 sm:w-52 h-11 bg-orange-500 text-white font-semibold text-base rounded-md hover:bg-orange-600 transition duration-300 flex items-center justify-center gap-2"
-          >
-            <FaDownload className="text-white" />
-            View Brochure
-          </a>
+          
         </div>
       </div>
     </div>
