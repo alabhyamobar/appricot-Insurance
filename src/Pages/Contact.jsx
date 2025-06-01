@@ -10,7 +10,7 @@ const Contact = () => {
         </h2>
         <p className="text-lg sm:text-xl mb-2">Better, see us in person!</p>
         <p className="text-base sm:text-lg leading-relaxed mb-6">
-          We love our customers, so feel free to visit during normal business hours. <br /> We’re here in <strong>Cylinder Chauraha, Kalyanpur, Kanpur</strong>.
+          We love our customers, so feel free to visit during normal business hours. <br /> We’re here in <strong>Office No. 23, RPS Plaza, Near Cylinder Chauraha, Keshav Puram, Avas Vikas No. 1 Kalyanpur, Kanpur - 208017</strong>.
         </p>
 
         <a
