@@ -19,7 +19,7 @@ const TeamContext = ({children}) => {
           },
           {
             id: 3,
-            name: "Pratyush Mishra",
+            name: "Pratyush Pandey",
             role: "Business Development Executive (BDE)",
             description: "Pratyush Mishra is a Business Development Executive at Apricoat Insurance, specializing in marine and fire insurance. With a keen understanding of market dynamics, he identifies growth opportunities and builds strong client relationships. His proactive approach and commitment to excellence drive Apricoat's mission to deliver tailored insurance solutions that meet the evolving needs of clients.",
             // image: "https://via.placeholder.com/150"

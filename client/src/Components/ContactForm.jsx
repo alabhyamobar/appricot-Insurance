@@ -1,36 +1,41 @@
 import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
   const form = useRef();
   const [statusMessage, setStatusMessage] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    emailjs
-      .sendForm(
-        'service_u523uqo',          // Replace with your actual EmailJS service ID
-        'template_k5shj6o',         // Replace with your actual EmailJS template ID
-        form.current,               // ✅ Correct form element
-        'g7BJIRenRTCwwF-jv'         // Replace with your actual EmailJS public key
-      )
-      .then(
-        () => {
-          setStatusMessage('Message sent successfully!');
-          form.current.reset();
-        },
-        (error) => {
-          console.error('Error sending email:', error);
-          setStatusMessage('Failed to send message. Please try again later.');
-        }
-      )
-      .finally(() => {
-        setIsSubmitting(false);
-        setTimeout(() => setStatusMessage(''), 5000);
+    // Collect form data
+    const formData = {
+      user_name: form.current.user_name.value,
+      user_email: form.current.user_email.value,
+      user_phone: form.current.user_phone.value,
+      message: form.current.message.value,
+    };
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
       });
+
+      if (response.ok) {
+        setStatusMessage('Message sent successfully!');
+        form.current.reset();
+      } else {
+        setStatusMessage('Failed to send message. Please try again later.');
+      }
+    } catch (error) {
+      setStatusMessage('Failed to send message. Please try again later.');
+    } finally {
+      setIsSubmitting(false);
+      setTimeout(() => setStatusMessage(''), 5000);
+    }
   };
 
   return (
@@ -55,7 +60,7 @@ const ContactForm = () => {
             <label className="block text-sm font-medium text-gray-700">Email Address</label>
             <input
               type="email"
-              name="to_email"
+              name="user_email"
               required
               className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-green-600 focus:border-green-600"
             />

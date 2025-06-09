@@ -29,8 +29,8 @@ const Footer = () => {
         <p><span className="font-semibold text-white">Landline -</span> 0512 316 4926</p>
         <p><span className="font-semibold text-white">Off. Add. -</span> Office No. 23, RPS Plaza, Near Cylinder Chauraha, Keshav Puram,
           Avas Vikas No. 1 Kalyanpur, Kanpur - 208017</p>
-        <p><span className="font-semibold text-white">Email id -</span> apricoatinsurancemarketting@gmail.com, support@apricoat.in</p>
-        
+        <p><span className="font-semibold text-white">Email id -</span> apricoatinsurancemarketting@gmail.com, support@apricoatinsurance.in</p>
+        <p><span className="font-semibold text-white">Designed and Developed by -</span><u> AK-2 Web Solutions</u></p>
       </div>
     </footer>
   );
