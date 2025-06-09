@@ -10,8 +10,12 @@ const Contact = () => {
         </h2>
         <p className="text-lg sm:text-xl mb-2">Better, see us in person!</p>
         <p className="text-base sm:text-lg leading-relaxed mb-6">
+<<<<<<< HEAD:client/src/Pages/Contact.jsx
           We love our customers, so feel free to visit during normal business hours. <br /> We’re here in <strong>Office No. 23, RPS Plaza, Near Cylinder Chauraha, Keshav Puram,
           Avas Vikas No. 1 Kalyanpur, Kanpur - 208017</strong>.
+=======
+          We love our customers, so feel free to visit during normal business hours. <br /> We’re here in <strong>Office No. 23, RPS Plaza, Near Cylinder Chauraha, Keshav Puram, Avas Vikas No. 1 Kalyanpur, Kanpur - 208017</strong>.
+>>>>>>> df9b9fce88a5d43285d28de0418fb2ee7dc37f0a:src/Pages/Contact.jsx
         </p>
 
         <a

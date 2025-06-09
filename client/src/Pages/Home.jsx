@@ -43,6 +43,7 @@ const Home = ({ refProp }) => {
               Get Quotes
             </button>
           </Link>
+<<<<<<< HEAD:client/src/Pages/Home.jsx
           
           <a
   href="https://drive.google.com/uc?export=download&id=1gEfdR-m7HonAImJGtfg1WiXmalzwBxAl"
@@ -53,6 +54,9 @@ const Home = ({ refProp }) => {
     Download Brochure
   </button>
 </a>
+=======
+
+>>>>>>> df9b9fce88a5d43285d28de0418fb2ee7dc37f0a:src/Pages/Home.jsx
           
         </div>
       </div>
