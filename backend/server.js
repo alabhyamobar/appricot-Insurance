@@ -10,7 +10,7 @@ require('dotenv').config();
 
 // Models
 const Contact = require('./models/Contact');
-const Testimonial = require('./models/Testimonial');
+const Testimonial = require('./models/testimonial');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
